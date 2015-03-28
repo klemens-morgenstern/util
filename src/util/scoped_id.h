@@ -64,8 +64,8 @@ public:
 
 	scoped_identifier(const scoped_identifier&) = default;
 	scoped_identifier( scoped_identifier&&)  	noexcept = default;
-	scoped_identifier &operator=(const scoped_identifier&) 	noexcept = default;
-	scoped_identifier &operator=( scoped_identifier&&) 		noexcept = default;
+	scoped_identifier &operator=(const scoped_identifier&) 	 = default;
+	scoped_identifier &operator=( scoped_identifier&&) 		 = default;
 
 	using father::father;
 
